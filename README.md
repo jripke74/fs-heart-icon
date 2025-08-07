@@ -11,3 +11,16 @@ Step 2
 The next step is to set the width and height attributes for the svg element. As you are creating an icon, both values should be set small.
 
 Set both values to 24.
+
+Step 3
+You are getting closer. The next thing to do is to set the viewBox attribute of the svg element. This will control how much of the image is visible. The first two numbers set the center of the image.
+
+The following two numbers set the size of the image can we see; width followed by height.
+
+Since here the entirety of the icon should be visible, you should set the viewBox attribute to 0 0 24 24.
+
+Step 4
+Before you begin coloring the image in, you should nest one path element inside your svg element to give the image shape.
+
+Create a path element.
+
